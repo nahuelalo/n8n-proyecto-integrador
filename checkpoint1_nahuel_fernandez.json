@@ -142,7 +142,7 @@
     },
     {
       "parameters": {
-        "chatId": "6029840416",
+        "chatId": "YOUR_TELEGRAM_CHAT_ID",
         "text": "=🛡️ REPORTE DE EJECUCIÓN - AGENTE DE SOPORTE\n\nFecha:\n{{ $now }}\n\nConsulta recibida:\n{{ $('When chat message received').item.json.chatInput }}\n\nResultado del agente:\n{{ $json.output }}\n\nWorkflow:\nCheckpoint 1 - Agente de Triaje de Soporte",
         "additionalFields": {}
       },
