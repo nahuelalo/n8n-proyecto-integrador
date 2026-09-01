@@ -797,7 +797,7 @@
     },
     {
       "parameters": {
-        "chatId": "6029840416",
+        "chatId": "your_id_telegram",
         "text": "=REPORTE MULTI-AGENTE - SOPORTE IT\n\nFecha:\n{{ $json.fecha }}\n\nIntencion:\n{{ $json.intent.replaceAll('_', '-') }}\n\nWorker:\n{{ $json.worker.replaceAll('_', '-') }}\n\nParametros:\n{{ $json.parametros.replaceAll('_', '-') }}\n\nEstado:\n{{ $json.status }}\n\nRespuesta:\n{{ $json.respuesta }}\n\nWorkflow:\nManager M3 - Memoria Persistente Soporte IT",
         "additionalFields": {
           "appendAttribution": false
@@ -2702,7 +2702,7 @@
     },
     {
       "parameters": {
-        "chatId": "6029840416",
+        "chatId": "your_id_telegram",
         "text": "=Nuevo correo procesado por Soporte IT  Remitente: {{ $json.email }} Asunto: {{ $json.subject }} Estado CRM: contacto procesado Estado Gmail: borrador creado para revisión humana",
         "additionalFields": {}
       },
